@@ -42,3 +42,43 @@
     border-radius:5rem;
 
 }
+
+html{
+    font-size:62.5%;
+    overflow-x:hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+}
+
+body{
+    background-color: var(--main-color);
+
+}
+
+section{
+    padding:3rem 0;
+    max-width:1200px;
+    margin:0 auto
+
+}
+
+.header.flex{
+
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    gap:1.5rem;
+}
+
+.header.flex.logo{
+    color:var(--sub-color);
+    font-size:2.5rem;
+
+
+}
+
+.header.flex.fa-bars{
+    font-size:2.5rem;
+    cursor:pointer;
+    
+}
