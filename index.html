@@ -8,7 +8,7 @@
         <!--font awesome cdn links -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />"
         <!--custom css file link-->
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="./style.css"/>
         </head> 
         <body>
 
@@ -31,5 +31,120 @@
                 <a href="#reviews">Reviews</a>
             </nav>
         </section>
+        <!--header section ends-->
+        <!--Home section starts-->
+        <section class="home" id="home">
+           <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+                <div class="box swiper-slide">
+                    <img src="images/home-img-1.jpg" alt="">
+                    <div class="flex">
+                        <h3>Luxurious rooms</h3>
+                        <a href="#availability" class="btn">Check Availability</a>
+                    </div>
+                </div>
+                <div class="box swiper-slide">
+                    <img src="images/home-img-2.jpg" alt="">
+                    <div class="flex">
+                        <h3>Foods and Drinks</h3>
+                        <a href="#reservation" class="btn">Make a reservation</a>
+                    </div>
+                </div>
+                <div class="box swiper-slide">
+                    <img src="images/home-img-3.jpg" alt="">
+                    <div class="flex">
+                        <h3>Luxurious Halls</h3>
+                        <a href="#contact" class="btn">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+           </div> 
+        </section>
+
+        <!--home section ends-->
+        <!--availability section starts -->
+        <section class="Availability" id="Availability">
+            <form action = "" method = "post">
+                <div class="flex">
+                    <div class="box">
+                        <p>Check in  <span>*</span></p>
+                        <input type="date" name="check_in" class="input" required>
+                    </div>
+                    <div class="box">
+                        <p>Chec out  <span>*</span></p>
+                        <input type="date" name="check_out" class="input" required>
+                    </div>
+
+                    <div class="box">
+                        <p>adults <span>*</span></p>
+                        <selct name="adults" class="input" required>
+                            <option value="1">! Adults</option>
+                            <option value="2">2 Adults</option>
+                            <option value="3">3 Adults</option>
+                            <option value="4">4 Adults</option>
+                            <option value="5">5 Adults</option>
+                            <option value="6">6 Adults</option>
+                        </selct>
+                    </div>
+                    <div class="box">
+                        <p>Childs <span>*</span></p>
+                        <select name="childs" class="input" required>
+                            <option value="-">0 Child</option>
+                            <option value="1">1 Child</option>
+                            <option value="2">2 Child</option>
+                            <option value="3">3 Child</option>
+                            <option value="4">4 Child</option>
+                            <option value="5">5 Child</option>
+                            <option value="6">6 Childs</option>
+                        </select>
+                    </div>
+
+                    <div class="box">
+                        <p>rooms <span>*</span></p>
+                        <select name="rooms" class="input" required>
+                            <option value="1">1 room</option>
+                            <option value="2">2 rooms</option>
+                            <option value="3">3 rooms</option>
+                            <option value="4">4 rooms</option>
+                            <option value="5">5 rooms</option>
+                        </select>
+                    </div>
+                </div>
+                <input type="submit" value="check Availability" name="check" class="btn">
+            </form>
+        </section>
+
+
+        <!--availability section ends-->
+        <!--about section starts-->
+
+
+        <section class="about" id="about">
+            <div class="row">
+                <div class="image">
+                    <img src="images/about-img-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, mollitia. Tempore, facere adipisci! Culpa, possimus accusantium! Aut illum excepturi deserunt quas maxime voluptates, culpa, minima eaque eligendi exercitationem totam reprehenderit.</h3>
+                    <a href="#reservation" class="btn">Make a reservation</a>
+                </div>
+            </div>
+
+            <div class="row revers">
+                <div class="image">
+                    <img src="images/about-img-2.jpg" alt="">
+                </div>
+            <div class="content">
+                <h3>Best foods</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam deleniti pariatur, officiis cumque maiores aliquid esse vitae consequuntur? Harum illum nemo dignissimos quod iste quo asperiores a eos quibusdam eveniet.</p>
+                <a href="#contact" class="btn">Contact us</a>
+            </div> 
+            </div>
+        </section>
+
+
+
     </head>
 </html>

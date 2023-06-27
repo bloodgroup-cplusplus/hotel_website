@@ -62,6 +62,21 @@ section{
 
 }
 
+.btn{
+    display:inline-block;
+    cursor:pointer;
+    padding:1rem 3rem;
+    border: var(--border);
+    font-size:1.8rem;
+    color:var(--sub-color);
+    text-transform: capitalize;
+
+}
+
+.btn:hover{
+    border-radius:var(--sub-color);
+}
+
 .header.flex{
 
     display:flex;
@@ -77,8 +92,9 @@ section{
 
 }
 
+
 .header.flex.fa-bars{
     font-size:2.5rem;
     cursor:pointer;
-    
+
 }
